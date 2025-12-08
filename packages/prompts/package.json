@@ -1,6 +1,7 @@
 {
-  "name": "@clack/prompts",
+  "name": "@skidrow/clack-fork-prompts",
   "version": "1.0.0-alpha.7",
+  "publishConfig": { "access": "public" },
   "type": "module",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
@@ -50,10 +51,11 @@
   "scripts": {
     "build": "unbuild",
     "prepack": "pnpm build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "spinner2": "jiti ./src/testSpinner2.ts"
   },
   "dependencies": {
-    "@clack/core": "workspace:*",
+    "@skidrow/clack-fork-core": "workspace:*",
     "picocolors": "^1.0.0",
     "sisteransi": "^1.0.5"
   },

@@ -1,6 +1,7 @@
 {
-  "name": "@clack/core",
+  "name": "@skidrow/clack-fork-core",
   "version": "1.0.0-alpha.7",
+  "publishConfig": { "access": "public" },
   "type": "module",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",

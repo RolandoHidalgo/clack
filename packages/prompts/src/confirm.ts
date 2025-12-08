@@ -1,4 +1,4 @@
-import { ConfirmPrompt } from '@clack/core';
+import { ConfirmPrompt } from '@skidrow/clack-fork-core';
 import color from 'picocolors';
 import {
 	type CommonOptions,

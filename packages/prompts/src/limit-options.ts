@@ -1,5 +1,5 @@
 import type { Writable } from 'node:stream';
-import { getColumns, getRows } from '@clack/core';
+import { getColumns, getRows } from '@skidrow/clack-fork-core';
 import { wrapAnsi } from 'fast-wrap-ansi';
 import color from 'picocolors';
 import type { CommonOptions } from './common.js';

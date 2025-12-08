@@ -1,4 +1,4 @@
-import { SelectPrompt, wrapTextWithPrefix } from '@clack/core';
+import { SelectPrompt, wrapTextWithPrefix } from '@skidrow/clack-fork-core';
 import color from 'picocolors';
 import {
 	type CommonOptions,

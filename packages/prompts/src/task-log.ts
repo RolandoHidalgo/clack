@@ -1,5 +1,5 @@
 import type { Writable } from 'node:stream';
-import { getColumns } from '@clack/core';
+import { getColumns } from '@skidrow/clack-fork-core';
 import color from 'picocolors';
 import { erase } from 'sisteransi';
 import {
@@ -26,8 +26,9 @@ export interface TaskLogCompletionOptions {
 	showLog?: boolean;
 }
 
-interface BufferEntry {
+export interface BufferEntry {
 	header?: string;
+	taskHeader?: string;
 	value: string;
 	full: string;
 	result?: {

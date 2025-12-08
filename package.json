@@ -1,12 +1,13 @@
 {
-  "name": "@clack/root",
+  "name": "@skidrow/clack-fork-root",
   "private": true,
   "type": "module",
+  "publishConfig": { "access": "public" },
   "scripts": {
     "stub": "pnpm -r run build --stub",
-    "build": "pnpm --filter \"@clack/*\" run build",
+    "build": "pnpm --filter \"@skidrow/clack-*\" run build",
+    "publish": "pnpm -r publish --access public --no-git-checks",
     "start": "pnpm run dev",
-    "dev": "pnpm --filter @example/changesets run start",
     "format": "biome check --write",
     "lint": "biome lint --write --unsafe",
     "types": "tsc --noEmit",
@@ -23,7 +24,6 @@
     "typescript": "^5.8.3",
     "unbuild": "^3.6.0"
   },
-  "packageManager": "pnpm@9.14.2",
   "volta": {
     "node": "20.18.1"
   }

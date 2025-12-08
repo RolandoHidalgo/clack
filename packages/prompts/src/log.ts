@@ -1,4 +1,4 @@
-import { settings } from '@clack/core';
+import { settings } from '@skidrow/clack-fork-core';
 import color from 'picocolors';
 import {
 	type CommonOptions,

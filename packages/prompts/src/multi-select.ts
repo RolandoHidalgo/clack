@@ -1,4 +1,4 @@
-import { MultiSelectPrompt, wrapTextWithPrefix } from '@clack/core';
+import { MultiSelectPrompt, wrapTextWithPrefix } from '@skidrow/clack-fork-core';
 import color from 'picocolors';
 import {
 	type CommonOptions,

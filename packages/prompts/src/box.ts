@@ -1,5 +1,5 @@
 import type { Writable } from 'node:stream';
-import { getColumns, settings } from '@clack/core';
+import { getColumns, settings } from '@skidrow/clack-fork-core';
 import stringWidth from 'fast-string-width';
 import { wrapAnsi } from 'fast-wrap-ansi';
 import {

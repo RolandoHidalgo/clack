@@ -1,4 +1,4 @@
-import { block, getColumns, settings } from '@clack/core';
+import { block, getColumns, settings } from '@skidrow/clack-fork-core';
 import { wrapAnsi } from 'fast-wrap-ansi';
 import color from 'picocolors';
 import { cursor, erase } from 'sisteransi';
