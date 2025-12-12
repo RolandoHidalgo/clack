@@ -21,8 +21,11 @@ jobs:
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Install pnpm
-        run: pnpm install -g pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+          standalone: false
 
 
       - name: Install depends
